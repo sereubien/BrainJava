@@ -47,9 +47,9 @@ class JDBCExample2 {
 				jumincd = rs.getString(1); // rs.getString("jumincd");
 				pname = rs.getString(2); // rs.getString("pname");
 				gender = rs.getString(3); // rs.getString("gender");
-				int age = rs.getInt(4); // rs.getInt("age");
+				//int age = rs.getInt(4); // rs.getInt("age");
 
-				System.out.println(jumincd + "----" + pname + "----" + gender + "----" + age);
+				//System.out.println(jumincd + "----" + pname + "----" + gender + "----" + age);
 			}
 			// 4단계 : DB 연결을 종료한다
 			conn.close();
